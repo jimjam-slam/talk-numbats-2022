@@ -1,0 +1,640 @@
+---
+format:
+  revealjs: 
+    theme: [default, style.scss]
+    highlight-style: github
+    width: 1400
+    css:
+      - https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css
+---
+
+## {.center}
+
+::: {.notes}
+Hi, I'm James
+
+I'm D&DSL at 360info @ Monash Uni
+:::
+
+<h1 class="text-indigo-pink">XXX<h1>
+
+<h2>YYY</h2>
+
+::: {style="margin-top:50px"}
+### JAMES GOLDIE {.text-orange-gold}
+
+Data and Digital Storytelling Lead, 360info
+:::
+
+# Hi! {.text-wash-black background="linear-gradient(45deg, #00aadd, #66dd00)"}
+
+## {.text-lime-cyan}
+
+::::: {.columns style="text-align:center;margin-top:50px;"}
+
+:::: {.column width="50%" style="margin-top:50px"}
+::: {.r-stack}
+![](images/graduation.gif){.fragment .fade-in-then-semi-out fragment-index=1 style="width:70%;transform:rotate(-5deg);" fig-alt="A picture of me and my PhD supervisor, Lisa Alexander, at my graduation."}
+
+![](images/mcccrh-zoom.png){.fragment .fade-in-then-semi-out fragment-index=2 style="transform:rotate(5deg);" fig-alt="A picture of me and MCCCRH staff members on Zoom."}
+
+![](images/mcccrh.gif){.fragment .fade-in-then-semi-out fragment-index=3 style="transform:rotate(-1deg);" fig-alt="A picture of me and MCCCRH staff members on a work trip."}
+
+![](images/mcccrh-projections.jpg){.fragment .fade-in-then-semi-out fragment-index=4 style="transform:rotate(1.5deg);" fig-alt="A picture of Graham Creed from the ABC presenting climate projections."}
+
+![](images/mcccrh-7news.gif){.fragment .fade-in fragment-index=5 style="transform:rotate(-3.5deg);" fig-alt="A picture of Jane Bunn presenting statistics on shrinking winters."}
+:::
+::::
+
+:::: {.column width="50%"  style="margin-top:25px"}
+::: {.fragment fragment-index=1}
+I used to be a climate + health researcher
+
+
+:::
+::: {.fragment fragment-index=2}
+•
+
+Worked with **[CLEX](https://climateextremes.org.au)** and **[MCCCRH](https://monash.edu/mcccrh)** on climate change communication
+:::
+::: {.fragment fragment-index=6}
+•
+
+<!-- Now a data journalist with **[360info.org](https://360info.org)!** -->
+
+Now I'm a data journalist with
+
+[![](images/360logo.svg){style="width:50%;"}](https://360info.org)
+:::
+::::
+
+:::::
+
+
+::: {.notes}
+When I was a climate + health researcher, I made graphics like this:
+
+Then I worked at the Monash Climate Change Communication Research Hub, and I made graphics like this:
+
+Now I work for 360info, an open access newswire supported by Monash. Now I make graphics like this:
+:::
+
+## {.center}
+
+:::: {.columns}
+
+:::{.column width="50%"}
+[![](images/360logo.svg){style="width:50%;"}](https://360info.org)
+
+**[360info](https://360info.org)** is an **open access** global information agency that tackles the world’s biggest challenges and offers practical solutions.
+
+Open data @ [**github.com/360-info**](https://github.com/360-info)
+:::
+
+:::{.column .fragment width="50%"}
+```{=html}
+<iframe allow="fullscreen" style="border: none; width: 100%; height: 575px;" src="https://360info-electricitytransition.pages.dev/map"></iframe>
+```
+:::
+::::
+
+::: {.notes}
+I've been working at 360info for about a year
+
+We're a research-driven newswire, and we give everything away for free under Creative Commons so that all journalists can benefit from it
+
+Part of my role is creating our visuals. (click)
+
+That means I do everything: coding, design and analysis.
+
+As our team grows, I'm also working with our infrastructure partners and looking for ways to make it easier for reporters and editors to use our charts
+:::
+
+## Today {.center .text-lime-cyan}
+
+1. XXX
+2. XXX
+3. XXX
+4. Conclusions
+
+::: {style="margin-top:50px"}
+### Slides
+
+[**https://numbats2022.talks.jamesgoldie.dev**](https://numbats2022.talks.jamesgoldie.dev)
+
+[(Code for these slides is at [**https://github.com/jimjam-slam/talk-numbats-2022**](https://github.com/jimjam-slam/talk-numbats-2022))]{style="font-size:1.2rem"}
+:::
+
+::: {.notes}
+So I've spent a bit of time this year talking about my experience with broadcast climate graphics.
+:::
+
+# [Bulletpoints]{.hl .hl-gold} of my talk {.text-wash-black background="linear-gradient(45deg, #f37335, #fdc830)"}
+
+## Quick message vs slow, considered message
+
+::: {.notes}
+I've become really interested in the difference between "HERE IS A QUICK MESSAGE" and "Here's a long, considered message to digest slowly..."
+:::
+
+## But understanding can change with time and context
+
+::: {.notes}
+That said, charts don't _always_ have a fixed amount of view time.
+
+TV broadcast graphics have to work within a fixed view window, but the graphics could be republished online
+:::
+
+## {.center} 
+
++-----------------------+----------------------------+----------------------+
+|                       | Long view bad ❌           | Long view better ☑️   |
++=======================+============================+======================+
+| **Short view bad ❌** | Bad chart                  | [Requires context or |
+|                       |                            | time]{.fragment}     |
++-----------------------+----------------------------+----------------------+
+| **Short view good ☑️** | [Misleading/reductive/     | [🥳]{.fragment}      |
++                       | oversimplified]{.fragment} |                      |
++-----------------------+----------------------------+----------------------+
+
+:::{.notes}
+
+This is obviously a super reductive way to talk about how long we look at chart - there are ways to tackle the long view in certain contexts, like building a graphic up piece by piece, or introducing concepts earlier in a story.
+
+But I think it's helpful to think about short and long views because it helps us figure out how much simplification is necessary.
+:::
+
+## Layered complexity: climate stripes
+
+![Climate stripes in their original form](/images/climate-stripes.png)
+
+:::{.notes}
+I'm also not suggesting that every graphic should avail itself of hidden meaning if you stare at it long enough.
+
+Some graphics are designed for a specific purpose. The climate stripes are a good example of this:
+
+They tell a really simple message that really only depends on a basic awareness of the idea of climate change
+
+But if you need to talk about _anything_ else, they can be too simple.
+:::
+
+## Layered complexity: climate stripes
+
+:::{.panel-tabset style="transform: scale(0.75); transform-origin: top;"}
+
+## Stripes
+
+![Climate stripes in their original form](/images/climate-stripes.png)
+
+## Stripes with labels
+
+![Climate stripes with X axis labels](/images/climate-stripes-labelled.png)
+
+## Bars
+
+![Climate stripes as a barchart](/images/climate-stripes-bars.png)
+
+## Bars with labels
+
+![Climate stripes as a labelled barchart](/images/climate-stripes-bars-labelled.png)
+
+:::
+
+:::{.notes}
+In fact, the climate stripes website has variations you can download that add
+more typical chart elements, like axes, or even turning them into a conventional
+barchart.
+
+Even this last chart doesn't explicitly say what the measurement is.
+
+That's particularly interesting because a good chunk of physical climate is the
+patterns we see across time and space
+
+That means we have a lot of jargon for talking about spatial and temporal scales
+
+I'm going to retread a bit of what Amanda has talked about this morning looking
+at text, because text is a big part of this!
+
+TODO - return to this! Why doesn't it say "annual average temperature"?
+:::
+
+## Example
+
+![An outline of Australia. A good chunk of eastern Australia is shaded in orange, while a path in central-western Australia is shaded in light blue.](./images/australia-map-example.jpg)
+
+:::{.notes}
+What do we think this graphic is telling us? Yell it out
+
+Okay, this could be literally anything 😅
+:::
+
+## Climate change
+
+![An outline of Australia. A good chunk of eastern Australia is shaded in orange, while a path in central-western Australia is shaded in light blue.](./images/australia-map-example.jpg)
+
+:::{.notes}
+This is... not much better, tbh!
+
+Could be warming, fire risk, 
+:::
+
+
+# [Why should I]{.hl .hl-gold} tell stories? {.text-wash-black background="linear-gradient(45deg, #f37335, #fdc830)"}
+
+## Scientists are trusted {.text-orange-gold .center style="text-align:center"}
+
+**Sources of climate change news you trust** [(n = 2038)]{style="color:orange"}
+
+![Barchart showing various sources of information on the Y-axis and the fraction of surveyed people who trust them to deliver climate change information on the X-axis.](/images/audience-trust-climate-change.png){style="width:60%;margin-left: auto; margin-right: auto;"}
+
+::: {style="font-size:1.5rem"}
+[<i class="bi bi-file-earmark-text-fill"></i> Park et al. (2022, p. 18)](https://apo.org.au/node/317946)
+:::
+
+::: {.notes}
+Researchers are really trusted - much more so than other figures - in many fields.
+
+This survey looked at who people trust for news about climate change. The standout source is researchers and scientists, trusted by half the audience.
+:::
+
+## The chart challenge {.text-orange-gold .center}
+
+**\"Interpretation of graphical representations requires a relatively advanced skill set,** [and may therefore serve to distance some potential audiences.]{style="color:orange;"}
+
+["Furthermore, [charts and graphs] lack the perceived realism of photographic images, potentially rendering them]{style="color:orange;"} **less memorable and less likely to be perceived as “truth.”**
+
+::: {style="font-size:1.5rem; text-align: right;"}
+[<i class="bi bi-file-earmark-text-fill"></i> Rebich-Hespanha (2014)](https://doi.org/10.1080/17524032.2014.983534)[, investigating the use of visuals in the media]{style="color: #999"}
+:::
+
+::: {.notes}
+NOTES
+:::
+
+## {.center background-image="images/climate-stripes.png"}
+
+:::{style="text-align: center; width: 70%; padding-left: 15%;"}
+<h2 class="text-wash-white hl-black">But charts can break through</h2>
+[<i class="bi bi-file-earmark-text-fill"></i> Climate Stripes by Ed Hawkins](https://showyourstripes.info){.hl-black .text-wash-white style="font-size:1.5rem; padding: 5px;"}
+:::
+
+:::{.notes}
+This is an extreme example of Tufte's data-to-ink ideas
+
+I'm not saying all charts should be like the climate stripes
+
+But this chart serves a specific purpose really well
+:::
+
+## {.text-orange-gold .center style="text-align: center"}
+
+[<i class="bi bi-file-earmark-text-fill"></i> Climate Stripes by Ed Hawkins (showyourstripes.info)](https://showyourstripes.info){style="font-size:1.25rem"}
+
+:::{.panel-tabset style="transform: scale(0.75); transform-origin: top;"}
+
+## Stripes
+
+![Climate stripes in their original form](/images/climate-stripes.png)
+
+## Stripes with labels
+
+![Climate stripes with X axis labels](/images/climate-stripes-labelled.png)
+
+## Bars
+
+![Climate stripes as a barchart](/images/climate-stripes-bars.png)
+
+## Bars with labels
+
+![Climate stripes as a labelled barchart](/images/climate-stripes-bars-labelled.png)
+
+:::
+
+::: {.notes}
+The original climate stripes were designed specifically for public consumption - to start conversations about climate change.
+
+But as its popularity has grown, the uses of it have changed
+
+The website offers variations with more complexity
+:::
+
+## {.center style="text-align:center"}
+
+[As]{style="color:orange"} **researchers,** [you have the opportunity to]{style="color:orange"} **build social consensus** [for a]{style="color:orange"} **policy action**, [for]{style="color:orange"} **change** [or to just]{style="color:orange"} **help people understand**
+
+[(It'll help you talk to your colleagues, too!)]{style="color: orange; font-size: smaller;"}
+
+::: {.notes}
+You can use visuals and stories to many ends - to change policies, to change behaviours, or just to help people understand the world.
+
+Or to better talk to each other!
+:::
+
+# [Prime]{.hl .hl-purple style="color:white"} [considerations]{style="color: white;"} {background="linear-gradient(45deg, #4a00e0, #ff0099)"}
+
+::: {.notes}
+So let's talk about what you can do to make your stories heard
+
+The most important considerations aren't just for climate change stories, or even just for data-driven visuals
+
+This is general communication advice!
+:::
+
+## Who's your [audience?]{.hl} {.text-indigo-pink .center style="text-align:center"}
+
+The public?
+
+Audience at a university event?
+
+Funders?
+
+Peers/colleagues?
+
+:::{style="padding-top: 50px;"}
+What kind of **training** do they have?
+
+What are they **interested in**?
+
+How much **time** do they have?
+:::
+
+::: {.notes}
+NOTES
+:::
+
+## What's your [purpose?]{.hl} {.text-indigo-pink .center style="text-align:center"}
+
+Helping people evaluate a policy?
+
+Changing individual behaviours?
+
+Convincing your colleagues to change their analyses?
+
+Convincing funders to 💰?
+
+Advising people in an an emergency?<strong>*</strong>
+
+[* do _not_ do this without specific training!]{style="font-size: 1.25rem;"}
+
+::: {.notes}
+This is your _why_. Why are you doing this?
+:::
+
+## What's the [point?]{.hl} {.text-indigo-pink .center style="text-align:center"}
+
+Point ≠ purpose: it's the point for the _reader_
+
+Avoid a "so what?" moment
+
+::: {.notes}
+My colleagues in journalism call this different things
+
+The "Hey Martha"
+
+The marmalade drop
+
+The **purpose** is about what you want out of communicating;
+
+The **point** is about finding something that will catch your audience's attention
+
+In newsrooms, editors are trained to make sure this moment hits in the opening paragraph or two
+
+Readers shouldn't be shrugging and saying "so what?"
+
+This is really hard to evaluate when we're talking about our own work!
+
+There is lots of work that is useful and important but that doesn't have an immediate angle.
+
+Sometimes we need to get creative!
+:::
+
+## What does that mean for a visual? {.text-indigo-pink .center style="text-align:center"}
+
+:::: {.columns}
+
+::: {.column width="60%"}
+![Jane Bunn presenting climate change messaging on 7news  ](/images/7news-timeseries.png)
+:::
+
+::: {.column width="40%"}
+::: {.incremental style="text-align: left;"}
+* ~~**Audience:** the public?~~
+* **Audience:** evening news audience
+* **Time**: about 7 seconds
+* **Our purpose:** present evidence of climate change
+* **Our point**: summer days warming up near you
+:::
+:::
+
+::::
+
+::: {.notes}
+Here's an example of a time series from my last job, running during the weather segment in the evening news.
+
+In this case, the graphics team took the graphic we supplied and remade it.
+
+First question: who's our audience? We could just say the public, but let's be more specific and say that it's people watching the evening news.
+
+That tells us a few more things: they don't have much time. About 7 seconds, and
+they might be multi-tasking.
+
+Our purpose here was to present evidence of climate change.
+
+But that's not the _point_.
+
+The point is that things are warming up close to home.
+:::
+
+## What does that mean for a visual? {.text-indigo-pink .center style="text-align:center"}
+
+::::: {.columns}
+
+:::: {.column width="60%"}
+![Jane Bunn presenting climate change messaging on 7news](/images/7news-timeseries.png)
+::::
+
+:::: {.column width="40%"}
+**Primary messages**
+
+::: {.incremental style="text-align: left;"}
+* Trend line up
+* Getting warmer
+:::
+
+**Secondary messages**
+
+::: {.incremental style="text-align: left;"}
+* Year-to-year variability
+* Length of data record
+:::
+::::
+:::::
+
+::: {.notes}
+There're a lot of potential messages in this chart.
+
+But the first things people see emphasise our point.
+
+Everything else is secondary. If we're lucky, astute viewers might understand that the climate varies from year to year, or that we have a long, authoritative record here. 
+
+These graphics were designed to be repeated each month; maybe people will pick these messages up with repeated views.
+
+But the primary message is designed to be understood even if someone reads the headline and misses the chart.
+
+Or if they just see the rising trend line and the orange background but miss everything else.
+:::
+
+##  {.text-indigo-pink .center style="text-align:center"}
+
+::: {.notes}
+In a broadcast TV graphic, the point is basically the whole thing!
+
+This piece on the right is a longform scrollytelling piece.
+
+You might be tempted to think that you have more time here
+
+But the point is still important! People can and do close out of articles if the message doesn't land
+
+Scrollytelling pieces often build a complex visual up piece-by-piece. That's important to help the reader understand.
+
+But that doesn't mean they start the _story_ with the meaning of chart axes or colours.
+
+The point emotionally invests viewers. Then you can add context to the point and explain the need to go complex.
+
+_Then_ you can build a visual up.
+:::
+
+::::: {.columns}
+
+:::: {.column width="50%"}
+![](/images/mcccrh-7news.gif){alt="Screenshot of an ABC news story about climate change projections"}
+
+::: {}
+[Display time:]{style="color:blueviolet"}
+
+**7-10 seconds**
+:::
+::::
+
+:::: {.column width="50%"}
+[![](/images/storylab-climatechange.png){alt="Screenshot of an ABC Story Lab article about climate change" style="width:39%"}](https://www.abc.net.au/news/2019-12-06/how-climate-change-has-impacted-your-life/11766018)
+
+::: {}
+[Reading time:]{style="color:blueviolet"}
+
+**11 minutes** [(excluding graphics)]{style="color:blueviolet"}
+:::
+::::
+
+:::::
+
+# [Jargon in [climate stories]{.hl .hl-red}]{style="color:white"} { background="linear-gradient(45deg, #ed213a, #93291e)"}
+
+::: {.notes}
+Jargon is a topic that everyone knows they need to work on
+
+I'm gonna cover it anyway!
+
+Talking to different audiences is like switching from writing a blog post to writing a manuscript
+
+It's really easy to assume that you already know how to do it
+:::
+
+## Relating climate to weather {.text-red-brown .center style="text-align: center"}
+
+:::: {.columns}
+::: {.column width="50%"}
+**Jargon**
+
+[daily maxima]{style="color:darkred"}
+
+[maximum daily maximum]{style="color:darkred"}
+
+[area-averaged temperature]{style="color:darkred"}
+:::
+::: {.column width="50%"}
+**(Possible) alternative**
+
+[daytime temperatures]{style="color:darkred"}
+
+[hottest day]{style="color:darkred"}
+
+[temperature across Australia]{style="color:darkred"}
+:::
+::::
+
+::: {.notes}
+
+"Climate is what we expect; weather is what we get"
+
+A good chunk of physical climate is the patterns we see across time and the three dimensions of space
+
+That means we have a lot of jargon for talking about spatial and temporal scales
+
+This is a tricky dance: in some cases we can get away with an apparent loss of precision in our words, because of the context.
+
+"Daytime temp" != "Maximum temperature", but audiences have been trained to relate the two. (So long as the difference isn't important to this application!)
+
+The other interesting thing is that people's intuition starts to drift - not just with complexity in the measure, but with the time and especially space scales
+
+When we talk about daily temperature in a city, people link it to their experience
+
+If we talk about a hot day across Australia, that's a little harder to grasp!
+
+Once you get to the point of a country or the globe having a hot or cold year, it starts to be more of an intellectual exercise
+
+:::
+
+## Trickier jargon {.text-red-brown .center style="text-align: center"}
+
+#### eg. extreme rainfall
+
+::: {style="column-count: 2; color: darkred"}
+Num. days ≥ fixed threshold
+
+Num. days ≥ historical quantile
+
+% total rain falling on those days
+
+Rainiest 3-day stretch
+
+Rainiest 5-day stretch
+
+etc.
+:::
+
+::: {.notes}
+This trade-off becomes more difficult as our statistics start to become indices.
+
+There are many ways to characterise extreme rainfall:
+
+The difference between these may not be important for your audience - it might be enough to say "there are more wet days" or "we're seeing more extreme rainfall"
+
+But if our conclusion is sensitive to the choice of index, we could have a communication problem
+
+The solution then might not be "use a very long compound noun or an acronym"; it may be "this story is more complex than we thought".
+
+We need to ask ourselves about our purpose and our point again.
+:::
+
+# Conclusions {.text-black-white background="linear-gradient(45deg, #fff, #666)"}
+
+## Your expertise is [trusted]{.hl} {.center style="text-align:center;"}
+
+## Think about [audience,]{.hl} [purpose]{.hl} and [point]{.hl} {.center style="text-align:center;"}
+
+## [Reduce]{.hl} jargon...<br>[but keep your aims in mind]{style="font-size: 2.5rem"}  {.center style="text-align:center;"}
+
+::: {.notes}
+NOTES
+:::
+
+# Thanks for listening!
+
+Questions?
+
+[<i class="bi bi-twitter"></i> **360info_global**](https://twitter.com/360info_global)
+
+[<i class="bi bi-globe2"></i> **360info.org**](https://360info.org)
+
+[<i class="bi bi-github"></i> **github.com/360-info**](https://github.com/360-info)
