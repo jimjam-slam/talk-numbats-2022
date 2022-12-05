@@ -182,6 +182,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #99999966;
 
   &-purple { background: #6a159e; }
+  &-blue { background: #176898; }
   &-red    { background: #91002655; }
   &-gold   { background: orange; }
   &-black  { background: #00000099; }
@@ -195,7 +196,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .reveal pre.sourceCode code {
-  background: linear-gradient(66deg, #bbeeee, #0088dd);
+  background: linear-gradient(66deg, #faf0f6, #e5f7f7);
   padding: 12px 18px;
 }
 
@@ -203,4 +204,14 @@ figure.figcaption, p.caption {
   text-transform: uppercase;
   color: #999;
   font-size: 1.3rem;
+}
+
+// plot scaling
+.rainfall-plot .observablehq {
+  height: 700px;
+}
+
+.rainfall-plot svg {
+  transform-origin: top left;
+  transform: scale(1.3);
 }

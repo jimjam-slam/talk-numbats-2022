@@ -238,398 +238,155 @@ This is... not much better, tbh!
 Could be warming, fire risk, 
 :::
 
+# [[Temperature]{.hl .hl-red} projections]{style="color: white"} { background="linear-gradient(45deg, #ed213a, #93291e)"}
 
-# [Why should I]{.hl .hl-gold} tell stories? {.text-wash-black background="linear-gradient(45deg, #f37335, #fdc830)"}
 
-## Scientists are trusted {.text-orange-gold .center style="text-align:center"}
-
-**Sources of climate change news you trust** [(n = 2038)]{style="color:orange"}
-
-![Barchart showing various sources of information on the Y-axis and the fraction of surveyed people who trust them to deliver climate change information on the X-axis.](/images/audience-trust-climate-change.png){style="width:60%;margin-left: auto; margin-right: auto;"}
-
-::: {style="font-size:1.5rem"}
-[<i class="bi bi-file-earmark-text-fill"></i> Park et al. (2022, p. 18)](https://apo.org.au/node/317946)
-:::
+# [[Rainfall]{.hl .hl-blue} projections]{style="color: white;"} {background="linear-gradient(45deg, #00aadd, #66dd00)"}
 
 ::: {.notes}
-Researchers are really trusted - much more so than other figures - in many fields.
+All of this is fine when we're talking about heat, because the relationship between global warming and extreme heat is really clear.
 
-This survey looked at who people trust for news about climate change. The standout source is researchers and scientists, trusted by half the audience.
+It would be really hard to find a definition of heatwaves that isn't getting worse in most parts of the world.
+
+Rainfall is another beast:
+
+- rainfall patterns are changing in different ways around different parts of the world;
+- changes are very dependent on how you define extreme rainfall;
+- climate models less confidence in future rainfall changes than temperature
+
+So future rainfall stories can be challenging to tell quickly.
 :::
 
-## The chart challenge {.text-orange-gold .center}
+## Perth is [drying out]{.hl} in the winter {.center .text-lime-cyan}
 
-**\"Interpretation of graphical representations requires a relatively advanced skill set,** [and may therefore serve to distance some potential audiences.]{style="color:orange;"}
-
-["Furthermore, [charts and graphs] lack the perceived realism of photographic images, potentially rendering them]{style="color:orange;"} **less memorable and less likely to be perceived as “truth.”**
-
-::: {style="font-size:1.5rem; text-align: right;"}
-[<i class="bi bi-file-earmark-text-fill"></i> Rebich-Hespanha (2014)](https://doi.org/10.1080/17524032.2014.983534)[, investigating the use of visuals in the media]{style="color: #999"}
-:::
-
-::: {.notes}
-NOTES
-:::
-
-## {.center background-image="images/climate-stripes.png"}
-
-:::{style="text-align: center; width: 70%; padding-left: 15%;"}
-<h2 class="text-wash-white hl-black">But charts can break through</h2>
-[<i class="bi bi-file-earmark-text-fill"></i> Climate Stripes by Ed Hawkins](https://showyourstripes.info){.hl-black .text-wash-white style="font-size:1.5rem; padding: 5px;"}
-:::
-
-:::{.notes}
-This is an extreme example of Tufte's data-to-ink ideas
-
-I'm not saying all charts should be like the climate stripes
-
-But this chart serves a specific purpose really well
-:::
-
-## {.text-orange-gold .center style="text-align: center"}
-
-[<i class="bi bi-file-earmark-text-fill"></i> Climate Stripes by Ed Hawkins (showyourstripes.info)](https://showyourstripes.info){style="font-size:1.25rem"}
-
-:::{.panel-tabset style="transform: scale(0.75); transform-origin: top;"}
-
-## Stripes
-
-![Climate stripes in their original form](/images/climate-stripes.png)
-
-## Stripes with labels
-
-![Climate stripes with X axis labels](/images/climate-stripes-labelled.png)
-
-## Bars
-
-![Climate stripes as a barchart](/images/climate-stripes-bars.png)
-
-## Bars with labels
-
-![Climate stripes as a labelled barchart](/images/climate-stripes-bars-labelled.png)
-
-:::
-
-::: {.notes}
-The original climate stripes were designed specifically for public consumption - to start conversations about climate change.
-
-But as its popularity has grown, the uses of it have changed
-
-The website offers variations with more complexity
-:::
-
-## {.center style="text-align:center"}
-
-[As]{style="color:orange"} **researchers,** [you have the opportunity to]{style="color:orange"} **build social consensus** [for a]{style="color:orange"} **policy action**, [for]{style="color:orange"} **change** [or to just]{style="color:orange"} **help people understand**
-
-[(It'll help you talk to your colleagues, too!)]{style="color: orange; font-size: smaller;"}
-
-::: {.notes}
-You can use visuals and stories to many ends - to change policies, to change behaviours, or just to help people understand the world.
-
-Or to better talk to each other!
-:::
-
-# [Prime]{.hl .hl-purple style="color:white"} [considerations]{style="color: white;"} {background="linear-gradient(45deg, #4a00e0, #ff0099)"}
-
-::: {.notes}
-So let's talk about what you can do to make your stories heard
-
-The most important considerations aren't just for climate change stories, or even just for data-driven visuals
-
-This is general communication advice!
-:::
-
-## Who's your [audience?]{.hl} {.text-indigo-pink .center style="text-align:center"}
-
-The public?
-
-Audience at a university event?
-
-Funders?
-
-Peers/colleagues?
-
-:::{style="padding-top: 50px;"}
-What kind of **training** do they have?
-
-What are they **interested in**?
-
-How much **time** do they have?
-:::
-
-::: {.notes}
-NOTES
-:::
-
-## What's your [purpose?]{.hl} {.text-indigo-pink .center style="text-align:center"}
-
-Helping people evaluate a policy?
-
-Changing individual behaviours?
-
-Convincing your colleagues to change their analyses?
-
-Convincing funders to 💰?
-
-Advising people in an an emergency?<strong>*</strong>
-
-[* do _not_ do this without specific training!]{style="font-size: 1.25rem;"}
-
-::: {.notes}
-This is your _why_. Why are you doing this?
-:::
-
-## What's the [point?]{.hl} {.text-indigo-pink .center style="text-align:center"}
-
-Point ≠ purpose: it's the point for the _reader_
-
-Avoid a "so what?" moment
-
-::: {.notes}
-My colleagues in journalism call this different things
-
-The "Hey Martha"
-
-The marmalade drop
-
-The **purpose** is about what you want out of communicating;
-
-The **point** is about finding something that will catch your audience's attention
-
-In newsrooms, editors are trained to make sure this moment hits in the opening paragraph or two
-
-Readers shouldn't be shrugging and saying "so what?"
-
-This is really hard to evaluate when we're talking about our own work!
-
-There is lots of work that is useful and important but that doesn't have an immediate angle.
-
-Sometimes we need to get creative!
-:::
-
-## What does that mean for a visual? {.text-indigo-pink .center style="text-align:center"}
-
-:::: {.columns}
-
-::: {.column width="60%"}
-![Jane Bunn presenting climate change messaging on 7news  ](/images/7news-timeseries.png)
-:::
+::::{.columns}
 
 ::: {.column width="40%"}
-::: {.incremental style="text-align: left;"}
-* ~~**Audience:** the public?~~
-* **Audience:** evening news audience
-* **Time**: about 7 seconds
-* **Our purpose:** present evidence of climate change
-* **Our point**: summer days warming up near you
+**Cool season total rainfall (mm)**
+
+:::{.callout-tip}
+## 
+
+Perth has **lost over 25%** of its rainfall in the cooler months (April to October).
+
+These months are critical for the growing season.
 :::
+
+:::
+
+:::{.column width="60%"}
+
+```{ojs}
+//| label: perth-rainfall-obs
+//| classes: rainfall-plot
+
+import {addTooltips} from "@mkfreeman/plot-tooltip"
+
+perth = FileAttachment("data/perth-rainfall-obs.csv")
+  .csv({ typed: true })
+
+// convert year to date
+perthData = perth.map(d => ({ ...d,
+  startDate: new Date(d.year + "-01-01"),
+  date: new Date(d.year + "-07-01"),
+  endDate: new Date(d.year + "-12-31")
+}))
+
+// calculate man rainfallx
+rainfallArray = perth.map(d => d.total)
+meanRainfall = 
+  rainfallArray.reduce((a, b) => a + b, 0) / rainfallArray.length
+
+perthChart = addTooltips(
+  Plot.plot({
+    grid: true,
+    marks: [
+      Plot.rectY(perthData,
+        {
+          x1: "startDate",
+          x2: "endDate",
+          y: "total",
+          // fill: "total"
+          fill: "#7ceaf2",
+          title: d => `${d.year}\n${d.total} mm`
+        }),
+      Plot.linearRegressionY(perthData, { x: "date", y: "total" })
+    ]
+  }),
+  {
+    fill: "#2478bd",
+    stroke: "#2478bd"
+  })
+```
+
 :::
 
 ::::
 
 ::: {.notes}
-Here's an example of a time series from my last job, running during the weather segment in the evening news.
+But rainfall stories are important!
 
-In this case, the graphics team took the graphic we supplied and remade it.
+Perth—all of SW Aus, in fact—has a rainfall problem.
 
-First question: who's our audience? We could just say the public, but let's be more specific and say that it's people watching the evening news.
+Specifically a winter rainfall problem.
 
-That tells us a few more things: they don't have much time. About 7 seconds, and
-they might be multi-tasking.
+In the cooler months between April and October, Perth has lost a quarter of its rainfall over the last 120 years.
 
-Our purpose here was to present evidence of climate change.
+This is one of the clearest signals on total rainfall in the world
 
-But that's not the _point_.
+And it's a place where climate models agree we'll see more declines
 
-The point is that things are warming up close to home.
+So how do we tell that story?
 :::
 
-## What does that mean for a visual? {.text-indigo-pink .center style="text-align:center"}
-
-::::: {.columns}
-
-:::: {.column width="60%"}
-![Jane Bunn presenting climate change messaging on 7news](/images/7news-timeseries.png)
-::::
-
-:::: {.column width="40%"}
-**Primary messages**
-
-::: {.incremental style="text-align: left;"}
-* Trend line up
-* Getting warmer
-:::
-
-**Secondary messages**
-
-::: {.incremental style="text-align: left;"}
-* Year-to-year variability
-* Length of data record
-:::
-::::
-:::::
-
-::: {.notes}
-There're a lot of potential messages in this chart.
-
-But the first things people see emphasise our point.
-
-Everything else is secondary. If we're lucky, astute viewers might understand that the climate varies from year to year, or that we have a long, authoritative record here. 
-
-These graphics were designed to be repeated each month; maybe people will pick these messages up with repeated views.
-
-But the primary message is designed to be understood even if someone reads the headline and misses the chart.
-
-Or if they just see the rising trend line and the orange background but miss everything else.
-:::
-
-##  {.text-indigo-pink .center style="text-align:center"}
-
-::: {.notes}
-In a broadcast TV graphic, the point is basically the whole thing!
-
-This piece on the right is a longform scrollytelling piece.
-
-You might be tempted to think that you have more time here
-
-But the point is still important! People can and do close out of articles if the message doesn't land
-
-Scrollytelling pieces often build a complex visual up piece-by-piece. That's important to help the reader understand.
-
-But that doesn't mean they start the _story_ with the meaning of chart axes or colours.
-
-The point emotionally invests viewers. Then you can add context to the point and explain the need to go complex.
-
-_Then_ you can build a visual up.
-:::
-
-::::: {.columns}
-
-:::: {.column width="50%"}
-![](/images/mcccrh-7news.gif){alt="Screenshot of an ABC news story about climate change projections"}
-
-::: {}
-[Display time:]{style="color:blueviolet"}
-
-**7-10 seconds**
-:::
-::::
-
-:::: {.column width="50%"}
-[![](/images/storylab-climatechange.png){alt="Screenshot of an ABC Story Lab article about climate change" style="width:39%"}](https://www.abc.net.au/news/2019-12-06/how-climate-change-has-impacted-your-life/11766018)
-
-::: {}
-[Reading time:]{style="color:blueviolet"}
-
-**11 minutes** [(excluding graphics)]{style="color:blueviolet"}
-:::
-::::
-
-:::::
-
-# [Jargon in [climate stories]{.hl .hl-red}]{style="color:white"} { background="linear-gradient(45deg, #ed213a, #93291e)"}
-
-::: {.notes}
-Jargon is a topic that everyone knows they need to work on
-
-I'm gonna cover it anyway!
-
-Talking to different audiences is like switching from writing a blog post to writing a manuscript
-
-It's really easy to assume that you already know how to do it
-:::
-
-## Relating climate to weather {.text-red-brown .center style="text-align: center"}
+## 
 
 :::: {.columns}
+
 ::: {.column width="50%"}
-**Jargon**
 
-[daily maxima]{style="color:darkred"}
+### Messages {.text-lime-cyan}
 
-[maximum daily maximum]{style="color:darkred"}
-
-[area-averaged temperature]{style="color:darkred"}
+::: {.incremental}
+* Winter rainfall going down
+* Bad for agriculture
+* We expect the decline to continue
+* Less warming = less decline
 :::
+
+:::
+
 ::: {.column width="50%"}
-**(Possible) alternative**
 
-[daytime temperatures]{style="color:darkred"}
+### Challenges {.text-lime-cyan}
 
-[hottest day]{style="color:darkred"}
-
-[temperature across Australia]{style="color:darkred"}
+::: {.incremental}
+* This decline is clearly in the **cool season** (esp. winter)
+* We have seasonal rainfall projection **figures**, but...
+* Only annual **maps** (not seasonal)
 :::
+
+:::
+
 ::::
 
-::: {.notes}
+## {background-image="./images/rainfall-primer.png"}
 
-"Climate is what we expect; weather is what we get"
+<!-- ![](./images/rainfall-primer.png) -->
 
-A good chunk of physical climate is the patterns we see across time and the three dimensions of space
+## {background-image="./images/rainfall-obs.png"}
 
-That means we have a lot of jargon for talking about spatial and temporal scales
+<!-- ![](./images/rainfall-obs.png) -->
 
-This is a tricky dance: in some cases we can get away with an apparent loss of precision in our words, because of the context.
+## {background-image="./images/rainfall-map-1p5deg.png"}
 
-"Daytime temp" != "Maximum temperature", but audiences have been trained to relate the two. (So long as the difference isn't important to this application!)
+<!-- ![](./images/rainfall-map-1p5deg.png) -->
 
-The other interesting thing is that people's intuition starts to drift - not just with complexity in the measure, but with the time and especially space scales
+## {background-image="./images/rainfall-map-3deg.png"}
 
-When we talk about daily temperature in a city, people link it to their experience
+<!-- ![](./images/rainfall-map-3deg.png) -->
 
-If we talk about a hot day across Australia, that's a little harder to grasp!
-
-Once you get to the point of a country or the globe having a hot or cold year, it starts to be more of an intellectual exercise
-
-:::
-
-## Trickier jargon {.text-red-brown .center style="text-align: center"}
-
-#### eg. extreme rainfall
-
-::: {style="column-count: 2; color: darkred"}
-Num. days ≥ fixed threshold
-
-Num. days ≥ historical quantile
-
-% total rain falling on those days
-
-Rainiest 3-day stretch
-
-Rainiest 5-day stretch
-
-etc.
-:::
-
-::: {.notes}
-This trade-off becomes more difficult as our statistics start to become indices.
-
-There are many ways to characterise extreme rainfall:
-
-The difference between these may not be important for your audience - it might be enough to say "there are more wet days" or "we're seeing more extreme rainfall"
-
-But if our conclusion is sensitive to the choice of index, we could have a communication problem
-
-The solution then might not be "use a very long compound noun or an acronym"; it may be "this story is more complex than we thought".
-
-We need to ask ourselves about our purpose and our point again.
-:::
-
-# Conclusions {.text-black-white background="linear-gradient(45deg, #fff, #666)"}
-
-## Your expertise is [trusted]{.hl} {.center style="text-align:center;"}
-
-## Think about [audience,]{.hl} [purpose]{.hl} and [point]{.hl} {.center style="text-align:center;"}
-
-## [Reduce]{.hl} jargon...<br>[but keep your aims in mind]{style="font-size: 2.5rem"}  {.center style="text-align:center;"}
-
-::: {.notes}
-NOTES
-:::
-
-# Thanks for listening!
+## Thanks for listening!
 
 Questions?
 
