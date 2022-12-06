@@ -112,10 +112,11 @@ That means I do everything: coding, design and analysis.
 As our team grows, I'm also working with our infrastructure partners and looking for ways to make it easier for reporters and editors to use our charts
 :::
 
-## Today {.center .text-lime-cyan}
+## Today {.center}
 
 1. Short vs long read
-2. Introducing complexity: uncertainty in spatial data
+2. Language, jargon and complexity
+2. Uncertainty in spatial data
 4. Conclusions
 
 ::: {style="margin-top:50px"}
