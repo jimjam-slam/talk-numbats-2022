@@ -34,15 +34,16 @@ Data and Digital Storytelling Lead, 360info
 
 :::: {.column width="50%" style="margin-top:50px"}
 ::: {.r-stack}
-![](images/graduation.gif){.fragment .fade-in-then-semi-out fragment-index=1 style="width:70%;transform:rotate(-5deg);" fig-alt="A picture of me and my PhD supervisor, Lisa Alexander, at my graduation."}
+![](images/thesis-graphic.png){.fragment .fade-in-then-semi-out fragment-index=1 style="width:70%;transform:rotate(-5deg);" fig-alt="A figure from my thesis."}
 
-![](images/mcccrh-zoom.png){.fragment .fade-in-then-semi-out fragment-index=2 style="transform:rotate(5deg);" fig-alt="A picture of me and MCCCRH staff members on Zoom."}
 
-![](images/mcccrh.gif){.fragment .fade-in-then-semi-out fragment-index=3 style="transform:rotate(-1deg);" fig-alt="A picture of me and MCCCRH staff members on a work trip."}
+![](images/mcccrh-projections.jpg){.fragment .fade-in-then-semi-out fragment-index=2 style="transform:rotate(1.5deg);" fig-alt="A picture of Graham Creed from the ABC presenting climate projections."}
 
-![](images/mcccrh-projections.jpg){.fragment .fade-in-then-semi-out fragment-index=4 style="transform:rotate(1.5deg);" fig-alt="A picture of Graham Creed from the ABC presenting climate projections."}
-
-![](images/mcccrh-7news.gif){.fragment .fade-in fragment-index=5 style="transform:rotate(-3.5deg);" fig-alt="A picture of Jane Bunn presenting statistics on shrinking winters."}
+:::{.fragment .fade-in-then-semi-out fragment-index=3 style="transform:rotate(-1.5deg);" fig-alt="An interactive map showing how much electricity countries generate each yar and how much comes from renewable sources."}
+```{=html}
+<iframe allow="fullscreen" style="border: none; width: 600px; height: 575px;" src="https://360info-electricitytransition.pages.dev/map"></iframe>
+```
+:::
 :::
 ::::
 
@@ -57,7 +58,7 @@ I used to be a climate + health researcher
 
 Worked with **[CLEX](https://climateextremes.org.au)** and **[MCCCRH](https://monash.edu/mcccrh)** on climate change communication
 :::
-::: {.fragment fragment-index=6}
+::: {.fragment fragment-index=3}
 •
 
 <!-- Now a data journalist with **[360info.org](https://360info.org)!** -->
@@ -83,18 +84,20 @@ Now I work for 360info, an open access newswire supported by Monash. Now I make 
 
 :::: {.columns}
 
-:::{.column width="50%"}
+:::{.column width="55%"}
 [![](images/360logo.svg){style="width:50%;"}](https://360info.org)
 
 **[360info](https://360info.org)** is an **open access** global information agency that tackles the world’s biggest challenges and offers practical solutions.
 
-Open data @ [**github.com/360-info**](https://github.com/360-info)
+::: {.fragment fragment-index=1}
+[**github.com/360-info**](https://github.com/360-info)
+
+Keen to collab with research groups and media outlets!
+:::
 :::
 
-:::{.column .fragment width="50%"}
-```{=html}
-<iframe allow="fullscreen" style="border: none; width: 100%; height: 575px;" src="https://360info-electricitytransition.pages.dev/map"></iframe>
-```
+:::{.column .fragment width="40%" fragment-index=1}
+![Screenshot of 360info's GitHub account](./images/360info-github.png)
 :::
 ::::
 
@@ -385,6 +388,35 @@ So how do we tell that story?
 ## {background-image="./images/rainfall-map-3deg.png"}
 
 <!-- ![](./images/rainfall-map-3deg.png) -->
+
+::: {.notes}
+Like most maps, this has no discussion of uncertainty.
+
+As we know, that's a common problem with raster maps: you get a less of extra complexity
+with very little cognitive overhead with 2 or 3 spatial dimensions...
+
+... but you're also kind of in a corner after that.
+:::
+
+## Alternatives for uncertainty
+
+::: {.notes}
+If this was an interactive we could have a tooltip that gives more detail, and I believe Tony is talking about interactives next!
+
+You could do a dichromatic or trichromatic map, where you try to encode several sets of information into your fill colour.
+
+But nobody knows what they are, and they're really hard to read.
+
+In this case we chose to focus on a case where the models agreed on the sign of the change, and we tabled discussion of uncertainty.
+
+You might disagree with that, and I'm not sure I 100% agree either!
+
+Def not advocating for leaving uncertainty or nuance by the wayside.
+
+But in this case case we also thought as carefully about _what_ to visualise as _how_ to visualise it.
+
+Rather than trying to do a larger national story about future rainfall
+:::
 
 ## Thanks for listening!
 
